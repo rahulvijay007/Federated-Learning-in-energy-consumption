@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Consumption Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Energy Consumption Dashboard</h1>
+        </header>
+        <div id="main">
+            <h2>Latest Model Updates</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Weight</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
